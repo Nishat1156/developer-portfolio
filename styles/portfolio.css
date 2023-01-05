@@ -90,10 +90,12 @@ main {
     margin: 0 auto;
 
 }
+section{
+    margin-top: 130px;
+}
 
 /* about saction styles */
 .about {
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -102,7 +104,8 @@ main {
 }
 
 .section-title {
-    margin-bottom: 30px;
+    text-align:center ;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 
@@ -131,3 +134,25 @@ main {
     color: #474747;
     
 }
+/* WHAT I DO */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+/* resume style */
