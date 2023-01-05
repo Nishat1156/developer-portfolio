@@ -156,3 +156,23 @@ padding: 30;
     color: #757575;
 }
 /* resume style */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747
+    
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.resume .description-title{
+    color: #757575;
+
+}
